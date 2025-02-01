@@ -1,0 +1,21 @@
+{
+  "name": "videre-root",
+  "type": "module",
+  "private": true,
+  "packageManager": "bun@1.2.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "turbo": "^2.4.0"
+  }
+}

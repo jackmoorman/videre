@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    // base options
+    "lib": ["ESNext"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ES2022",
+    "verbatimModuleSyntax": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+
+    // strictness
+    "strict": true,
+
+    // for NOT transpiling with TypeScript (with `$ tsc`) (i.e. using tsup, Bun, or Vite)
+    "moduleResolution": "bundler",
+    "module": "NodeNext",
+    "noEmit": true,
+
+    // nice-to-haves
+    "allowSyntheticDefaultImports": true,
+
+    // if transpiling with TypeScript
+    // "moduleResolution": "nodenext",
+    // "module": "NodeNext",
+    // "outDir": "dist",
+    // "sourceMap": true,
+  },
+
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
