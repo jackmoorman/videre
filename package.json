@@ -1,10 +1,11 @@
 {
   "name": "videre-root",
-  "type": "module",
+  "author": "Jack Moorman",
   "private": true,
-  "packageManager": "bun@1.2.1",
+  "type": "module",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "apps/*"
   ],
   "scripts": {
     "build": "turbo build"
@@ -14,8 +15,5 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "turbo": "^2.4.0"
   }
 }
