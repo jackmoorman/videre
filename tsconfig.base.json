@@ -15,19 +15,16 @@
 
     // for NOT transpiling with TypeScript (with `$ tsc`) (i.e. using tsup, Bun, or Vite)
     "moduleResolution": "bundler",
-    "module": "NodeNext",
+    "module": "ESNext",
     "noEmit": true,
 
     // nice-to-haves
-    "allowSyntheticDefaultImports": true,
+    "allowSyntheticDefaultImports": true
 
     // if transpiling with TypeScript
     // "moduleResolution": "nodenext",
     // "module": "NodeNext",
     // "outDir": "dist",
     // "sourceMap": true,
-  },
-
-  "include": ["src"],
-  "exclude": ["node_modules", "dist"]
+  }
 }
